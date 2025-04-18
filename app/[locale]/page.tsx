@@ -1,0 +1,1 @@
+// Locale home page
