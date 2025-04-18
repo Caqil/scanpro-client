@@ -10,7 +10,6 @@ import {
   FileTextIcon,
   ScissorsIcon,
   RotateCwIcon,
-  WatermarkIcon,
   LockIcon,
   UnlockIcon,
   FileSignatureIcon,
@@ -22,6 +21,7 @@ import {
   BarChart3Icon,
   ClockIcon,
   StarIcon,
+  StampIcon,
 } from "lucide-react";
 
 export default function DashboardPage() {
@@ -79,7 +79,7 @@ export default function DashboardPage() {
       title: t("features.watermark.title"),
       description: t("features.watermark.description"),
       href: "/watermark",
-      icon: <WatermarkIcon />,
+      icon: <StampIcon />,
       bgColor: "bg-teal-50",
       iconColor: "text-teal-500",
       category: "edit",

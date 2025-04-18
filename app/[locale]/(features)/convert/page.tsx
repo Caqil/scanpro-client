@@ -25,7 +25,7 @@ import { ProcessingStatus } from "@/components/common/processing-status";
 import { FileTextIcon, DownloadIcon } from "lucide-react";
 import { apiClient } from "@/lib/api-client";
 import { SUPPORTED_CONVERSION_INPUTS, SUPPORTED_CONVERSION_OUTPUTS } from "@/lib/validations/file-validations";
-import { getFileExtension } from "@/lib/utils";
+import { getFileExtension } from "@/lib/file-utils";
 
 export default function ConvertPage() {
   const { t } = useLanguageStore();
